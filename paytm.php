@@ -2,8 +2,6 @@
 
 namespace aw2\paytm;
 
-require_once("vendor/paytm/paytmchecksum/PaytmChecksum.php");
-
 
 \aw2_library::add_service('paytm.generate_signature','',['namespace'=>__NAMESPACE__]);
 
